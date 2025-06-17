@@ -82,12 +82,44 @@ justify-content: space-around;
 .card-img{
    height: 200px;
    display: flex;
- 
+
 }
 .caixa-pizza{
    display: flex;
    justify-content:space-between;
    align-items: center;
    flex-direction: row;
-  border-radius: 50px;
+ 
+}
+.img{
+border-radius: 25px;
+height: 300px;
+width: 250px;
+}
+.Company{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   flex-direction:row;
+   width: 400px;
+}
+.About{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   flex-direction: column;
+   
+   width: 400px;
+}
+.rodape-estrutura{
+display: flex;
+justify-content: space-around;
+align-items:start;
+flex-direction: row;
+}
+button{
+   border-radius: 25px;
+  background-color: #ffffff;
 }
