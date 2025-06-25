@@ -118,8 +118,38 @@ display: flex;
 justify-content: space-around;
 align-items:start;
 flex-direction: row;
+margin-top: 50px;
 }
 button{
    border-radius: 25px;
   background-color: #ffffff;
+}
+.comida{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+flex-direction: column;
+}
+   
+
+.estrutura-cozinheiro{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   flex-direction: row;
+}
+.what{
+color: rgb(243, 47, 47);
+font-weight: 500;
+}
+.our{
+   font-weight: bolder;
+   width: 400px;
+   text-align: left;
+  }
+.the{
+  width:350px;
+  text-align: left;
+  margin-top: 8px;
 }
